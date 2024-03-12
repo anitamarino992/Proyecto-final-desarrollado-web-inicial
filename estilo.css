@@ -1,0 +1,581 @@
+/* Estilos para dispositivos móviles */
+@media (min-width: 412px){
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    html {
+        font-size: 10px;
+    }
+    .header {
+        height: 100px;
+        width: 100%;
+        background-color: white;
+    }
+    img.logo {
+        height: 8rem;
+        width: 100%;
+        margin-left: auto;
+  margin-right: auto;
+        
+        
+    }
+    body {
+        background-color: rgba(250, 235, 215, 0.815);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 1.5rem;
+    }
+    .menu li {
+        display: inline-block;
+        padding: 1rem;
+        font-size: 13px;
+        padding-top: 0rem;
+        font-weight: bold;
+    }
+    .menu a {
+        text-decoration-line: none;
+        font-weight: 50;
+        color: white;
+        font-style: oblique;
+        
+    }
+    .contenedormenu{
+        background-color: black;
+        text-align: center;
+        padding: 1px;
+        height: 5rem;
+       
+        font-size: 2.0rem;
+       width: 100%;
+        
+    }
+    nav{
+        padding: 1rem;
+    }
+    .menusuperior {
+        list-style: none;
+        text-align: center;
+    }
+    .menusuperior li{
+        display: inline-block;
+        padding: 1rem;
+    }
+    .menusuperior a{
+        color: black;
+        text-decoration: none;
+        font-weight: 50;
+        font-size: 1rem;
+        padding: 1.2rem;
+    }
+    .AMBARINDUMENTARIA{
+        font-size: 5px;
+        text-align: center;
+    }
+    /*Pestaña Nosotros*/
+.btn_catalogo{
+    padding: 1rem;
+}
+.btn_catalogo ul li{
+    text-align: center;
+    display: inline-block;
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 3rem;  
+}
+.titulo{
+    font-size: 2rem;
+    font-style: oblique;
+}
+.titulocatalogo{
+    font-size: 2rem;
+    font-style: oblique;
+}
+.subticatalogo{
+    font-size: 1.5rem; 
+    text-decoration: solid;
+    text-decoration: underline;
+}
+.btn_catalogo a{
+    text-decoration: none;
+    font-size: 2.5rem;
+    color: antiquewhite;
+    text-shadow: black 4px 4px 4px;
+}
+.info_catalogo{
+    padding: 1rem;
+    font-size: 3rem;
+    background-color: wheat;
+}
+.catalogo_imagenes{
+    width: 50%;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+nav{
+    padding: 1rem;
+}
+.menusuperior {
+    list-style: none;
+    text-align: center;
+}
+.menusuperior li{
+    display: inline-block;
+    padding: 2rem;
+}
+.menusuperior a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 3rem;
+    padding: 1.2rem;
+}
+.AMBARINDUMENTARIA{
+    font-size: 2rem;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: wheat;
+}
+
+/*Pestaña Home*/
+.swiper {    
+    width: 100%;
+    height: 100%;
+  }
+  img{
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+/* catalogo2*/
+.contenedorcatalogo{
+    padding: 1rem;
+}
+.img-chica{
+    width: 14rem;
+    padding: 1rem;
+    
+}
+
+/*     CONTACTO           */
+.contactocontenido{
+    margin: 1rem;
+    padding: 2rem;
+    width: 95%;
+    text-align: center;
+}
+.contactoinput{
+    width: 100%;
+    display: block;
+    margin: 0.5rem;
+    padding: 1rem;
+    box-sizing: border-box;
+    
+}
+.contacto_btn{
+    width: 30%;
+    padding: 0.5rem;
+    margin: 1rem;
+}
+
+/*   ENVIOS  */
+.envios{
+    font-size: 1.5rem;
+}
+.footer{
+    background-color: black;
+    padding: 1rem;
+    width: 100%;
+    color: bisque;
+    text-align: center;
+    clear: both;
+    font-size: 1rem;}
+}
+        
+
+/* Estilos para tabletas */
+@media (min-width: 768px){
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    html {
+        font-size: 10px;
+    }
+    .header {
+        background-color: rgb(255, 255, 255);
+        clear: both;
+        height: 14rem;
+    }
+    img.logo {
+        height: 14rem;
+        width: 100%;
+        margin-left: auto;
+  margin-right: auto;
+        
+    }
+    body {
+        background-color: rgba(250, 235, 215, 0.815);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 1.5rem;
+    }
+        .menu li {
+        display: inline-block;
+        padding: 1rem;
+        
+    }
+    .menu li {
+        display: inline-block;
+        padding: 1rem;
+        font-size: 12px;
+        padding-top: 0rem;
+    }
+    .menu a {
+        text-decoration-line: none;
+        font-weight: 50;
+        color: white;
+        font-style: oblique;
+        
+    }
+    .contenedormenu{
+        background-color: black;
+        text-align: center;
+        padding: 1px;
+        height: 5rem;
+       
+        font-size: 2.0rem;
+       width: 100%;   
+    }
+    nav{
+        padding: 1rem;
+    }
+    .menusuperior {
+        list-style: none;
+        text-align: center;
+    }
+    .menusuperior li{
+        display: inline-block;
+        padding: 1rem;
+    }
+    .menusuperior a{
+        color: black;
+        text-decoration: none;
+        font-weight: 50;
+        font-size: 1rem;
+        padding: 1.2rem;
+    }
+    .AMBARINDUMENTARIA{
+        font-size: 5px;
+        text-align: center;
+    }
+    .envios{
+        font-size: 2px;
+    }
+        /*Pestaña Nosotros*/
+.btn_catalogo{
+    padding: 1rem;
+}
+.btn_catalogo ul li{
+    text-align: center;
+    display: inline-block;
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 3rem;  
+}
+.titulo{
+    font-size: 2rem;
+    font-style: oblique;
+}
+.titulocatalogo{
+    font-size: 2rem;
+    font-style: oblique;
+}
+.subticatalogo{
+    font-size: 1.5rem; 
+    text-decoration: solid;
+    text-decoration: underline;
+}
+.btn_catalogo a{
+    text-decoration: none;
+    font-size: 2.5rem;
+    color: antiquewhite;
+    text-shadow: black 4px 4px 4px;
+}
+.info_catalogo{
+    padding: 1rem;
+    font-size: 3rem;
+    background-color: wheat;
+}
+.catalogo_imagenes{
+    width: 40%;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
+}
+nav{
+    padding: 1rem;
+}
+.menusuperior {
+    list-style: none;
+    text-align: center;
+}
+.menusuperior li{
+    display: inline-block;
+    padding: 2rem;
+}
+.menusuperior a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 3rem;
+    padding: 1.2rem;
+}
+.AMBARINDUMENTARIA{
+    font-size: 2rem;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: wheat;
+}
+
+/*Pestaña Home*/
+.swiper {    
+    width: 100%;
+    height: 100%;
+  }
+  img{
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+/* catalogo2*/
+.contenedorcatalogo{
+    padding: 1rem;
+}
+.img-chica{
+    width: 14rem;
+    padding: 1rem;
+    
+}
+
+/*     CONTACTO           */
+.contactocontenido{
+    margin: 1rem;
+    padding: 2rem;
+    width: 95%;
+    text-align: center;
+}
+.contactoinput{
+    width: 100%;
+    display: block;
+    margin: 0.5rem;
+    padding: 1rem;
+    box-sizing: border-box;
+    
+}
+.contacto_btn{
+    width: 30%;
+    padding: 0.5rem;
+    margin: 1rem;
+}
+
+/*   ENVIOS  */
+.envios{
+    font-size: 1.5rem;
+}
+.footer{
+    background-color: black;
+    padding: 1rem;
+    width: 100%;
+    color: bisque;
+    text-align: center;
+    clear: both;
+    font-size: 1rem;}
+}
+
+ /*Estilos para pantallas de PC */
+ @media(min-width:992px){
+
+ *{
+ margin: 0;   
+ padding: 0;
+}
+html{
+    font-size: 10px;
+}
+.header {
+    background-color: rgb(255, 255, 255);
+    height: 26rem;
+    width: 100%;    
+    background-color: rgb(255, 255, 255);
+    clear: both;
+}
+img.logo {
+       height: 26rem;
+        width: 100%;
+        padding-top: 1rem;
+        object-fit: cover;
+        padding-top: 2rem;
+    }      
+        
+
+.menu li {
+    display: inline-block;
+    padding: 2.0rem;
+    font-size: 2rem;
+    padding-bottom: 3rem;
+    
+}
+.menu a {
+    text-decoration-line: none;
+    font-weight: 800;
+    color: white;
+    font-style: oblique;
+    
+}
+.contenedormenu{
+    background-color: black;
+    text-align: center;
+    height: 6rem;
+    padding: 1px;
+    width: 100%;
+    
+}
+/*Pestaña Nosotros*/
+.btn_catalogo{
+    padding: 1rem;
+}
+.btn_catalogo ul li{
+    text-align: center;
+    display: inline-block;
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 3rem;
+    
+}
+.btn_catalogo a{
+    text-decoration: none;
+}
+.titulo{
+    font-size: 2rem;
+    font-style: oblique;
+}
+.titulocatalogo{
+    font-size: 2rem;
+    font-style: oblique;
+}
+.subticatalogo{
+    font-size: 1.5rem; 
+    text-decoration: solid;
+    text-decoration: underline;
+}
+.info_catalogo{
+    padding: 1rem;
+    font-size: 3rem;
+    background-color: wheat;
+}
+.catalogo_imagenes{
+    width: 40%;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+nav{
+    padding: 1rem;
+}
+.menusuperior {
+    list-style: none;
+    text-align: center;
+}
+.menusuperior li{
+    display: inline-block;
+    padding: 2rem;
+}
+.menusuperior a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 3rem;
+    padding: 1.2rem;
+}
+.AMBARINDUMENTARIA{
+    font-size: 2rem;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: wheat;
+}
+
+/*Pestaña Home*/
+.swiper {    
+    width: 100%;
+    height: 100%;
+  }
+  img{
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+/* catalogo2*/
+.contenedorcatalogo{
+    padding: 1rem;
+}
+.img-chica{
+    width: 14rem;
+    padding: 1rem;
+    
+}
+
+/*     CONTACTO           */
+.contactocontenido{
+    margin: 1rem;
+    padding: 2rem;
+    width: 95%;
+    text-align: center;
+}
+.contactoinput{
+    width: 100%;
+    display: block;
+    margin: 0.5rem;
+    padding: 1rem;
+    box-sizing: border-box;
+    
+}
+.contacto_btn{
+    width: 30%;
+    padding: 0.5rem;
+    margin: 1rem;
+}
+
+/*   ENVIOS  */
+.envios{
+    font-size: 1.5rem;
+}
+.footer{
+    background-color: black;
+    padding: 1rem;
+    width: 100%;
+    color: bisque;
+    text-align: center;
+    clear: both;
+    font-size: 1rem;}
+}
+
+
